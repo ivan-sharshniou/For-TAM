@@ -22,7 +22,7 @@ public class InputFromXML {
         try {
             DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
-            Document document = documentBuilder.parse(new File("src/main/resources/carparkinput.xml"));
+            Document document = documentBuilder.parse(new File("resources/carparkinput.xml"));
             document.normalizeDocument();
             Element root = document.getDocumentElement();
             NodeList car = root.getElementsByTagName("car");

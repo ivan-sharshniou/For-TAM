@@ -11,7 +11,7 @@ public class ToFile {
 
     public static void toFile(List<Car> carpark) {
         try {
-            File file = new File("src/main/resources/carparkoutput.txt");
+            File file = new File("resources/carparkoutput.txt");
             FileWriter writer = new FileWriter(file);
             for (Car c: carpark) {
                 writer.write(c.toString() + "\n");

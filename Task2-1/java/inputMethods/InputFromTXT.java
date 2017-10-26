@@ -9,7 +9,7 @@ public class InputFromTXT {
 
     public static List<String> inputfromfile() {
         List<String> carinfo = new ArrayList<String>();
-        File file = new File("src/main/resources/carparkinput.txt");
+        File file = new File("resources/carparkinput.txt");
         try {
             Scanner scanner = new Scanner(file);
             while (scanner.hasNextLine()) {
