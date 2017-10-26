@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carpark>
+    <car id="1">
+        <model>Opel</model>
+        <fuelconsumption>8.6</fuelconsumption>
+        <price>8520</price>
+    </car>
+    <car id="2">
+        <model>Lexus</model>
+        <fuelconsumption>5.6</fuelconsumption>
+        <price>13600</price>
+    </car>
+    <car id="3">
+        <model>Audi</model>
+        <fuelconsumption>8.9</fuelconsumption>
+        <price>11250</price>
+    </car>
+    <car id="4">
+        <model>BMW</model>
+        <fuelconsumption>12.6</fuelconsumption>
+        <price>12650</price>
+    </car>
+    <car id="5">
+        <model>Opel</model>
+        <fuelconsumption>7.9</fuelconsumption>
+        <price>6520</price>
+    </car>
+</carpark>
